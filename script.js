@@ -7,8 +7,8 @@ let currentPlayer = "X";
 
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-const winningMessage = () => `${currentPlayer} has won!`;
-const drawMessage = () => `You both Losers!`;
+const winningMessage = () => `${currentPlayer} Jeichutinga bro!`;
+const drawMessage = () => `velaada teriyaatha bro!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
