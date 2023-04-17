@@ -31,7 +31,7 @@ section {
 }
 .blink {
  animation: blinker 1s linear infinite;
-color: red;
+color: black;
 font-family: sans-serif;
 }
  @keyframes blinker {
