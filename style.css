@@ -29,6 +29,11 @@ section {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.blink {
+ animation: blinker 1s linear infinite;
+color: red;
+font-family: sans-serif;
+}
 @keyframes myanimation {
     0% {background-color: red;}
     25%{background-color:yellow;}
